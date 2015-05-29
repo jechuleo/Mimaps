@@ -32,6 +32,7 @@ public class MapsActivity extends FragmentActivity {
         // nuevo cambio agregado para probar github
         // otro cambio no figuro el 2do cambio
         //
+        //
         locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         String locationProvider = LocationManager.NETWORK_PROVIDER;
         Location lastKnownLocation = locationManager.getLastKnownLocation(locationProvider);
